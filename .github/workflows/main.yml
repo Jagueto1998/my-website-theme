@@ -11,7 +11,7 @@ jobs:
       - name: HubSpot Deploy Action
         uses: HubSpot/hubspot-cms-deploy-action@v1.4
         with:
-          src_dir: /my-website-theme
+          src_dir: /home/runner/work/my-website-theme/my-website-theme
           dest_dir: my-website-theme
           portal_id: ${{ secrets.hubspot_portal_id }}
           personal_access_key: ${{ secrets.hubspot_personal_access_key }}
