@@ -11,7 +11,7 @@ jobs:
       - name: HubSpot Deploy Action
         uses: HubSpot/hubspot-cms-deploy-action@v1.4
         with:
-          src_dir: /home/aiovel/workspace/insoftar/my-website-theme
+          src_dir: /my-website-theme
           dest_dir: /my-website-theme
           portal_id: ${{ secrets.hubspot_portal_id }}
           personal_access_key: ${{ secrets.hubspot_personal_access_key }}
